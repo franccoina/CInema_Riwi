@@ -1,24 +1,138 @@
-.sec-nav{
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.signature{
     display:flex; 
-    justify-content: center
+    align-items: center;
+    width: 4rem;
+    height: auto;
 }
 
-.sec-nav-opciones{
-    display:flex; 
-    justify-content:space-between
-}
-
-.sec-nav-lista{
-    display: flex; 
-    text-indent: 20px; 
-    list-style-type: none;
-}
-
-.anchor-nav-lista{
+a{
     text-decoration: none; 
     color:rgb(85, 85, 85); 
     font-family: "Train One", system-ui;
     font-weight: 400;
     font-style: normal;
 }
+
+.img-film{
+    display:flex; 
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.nav1-opciones{
+    display:flex; 
+    justify-content:center;
+    align-items: center;
+}
+
+.nav1-lista{
+    display: flex; 
+    text-indent: 20px; 
+    list-style-type: none;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-nav2{
+    width: 20%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: start;
+    padding: 30px;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.sec-nav2-lista{
+    display: flex; 
+    flex-direction: column;
+    list-style-type: none;
+}
+
+h3{
+    font-family: "Freehand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h2{
+    margin: 5px;
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(85, 85, 85);
+}
+
+h5{
+    margin: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+p{
+    font-size: 12px;
+    margin: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.estrenos{
+    display: flex;
+    flex-direction: column;
+}
+
+.estrenos-article{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-estrenos{
+    width: 300px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.cartelera{
+    display: flex;
+    flex-direction: column;
+}
+
+.cartelera-article{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-cartelera{
+    width: 300px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+      
+  
+  
+  
+
+
   

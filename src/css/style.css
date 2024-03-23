@@ -14,17 +14,25 @@
 a{
     text-decoration: none; 
     color:rgb(85, 85, 85); 
-    font-family: "Train One", system-ui;
-    font-weight: 400;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
     font-style: normal;
 }
 
 .img-film{
     display:flex; 
     align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-right: 10px;
     width: 300px;
+}
+
+.img-title{
+    display:flex; 
+    align-items: center;
+    margin-left: 10px;
+    width: 1020px;
 }
 
 .nav1-opciones{
@@ -57,8 +65,10 @@ main{
     align-items: start;
     padding: 30px;
     flex-direction: column;
-    border-radius: 20px;
-    margin: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .sec-nav2-lista{
@@ -67,32 +77,75 @@ main{
     list-style-type: none;
 }
 
-h3{
-    font-family: "Freehand", cursive;
+h1{
+    font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
 
 h2{
     margin: 5px;
-    font-family: "Limelight", sans-serif;
+    font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: rgb(85, 85, 85);
 }
 
+h3{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h5{
     margin: 5px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
 p{
     font-size: 12px;
     margin: 5px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.estrenos{
+.headpage{
+    display:flex ; 
+    justify-content:space-between; 
+    width: 100%; 
+    background-color: rgb(199, 177, 144);
+    border: solid black 3px;
+}
+
+.headpage-article{
+    width: 50%;
+    padding: 8px;
+}
+
+.headpage-title{
+    font-size: 5vw; 
+    color: rgb(100, 70, 30);
+    margin-left: 0px;
+}
+
+.headpage-figure{
+    display:flex ; 
+    justify-content:flex-end; 
+    width: 50%;
+}
+
+hr{
+    color: rgb(240, 240, 240);
+}
+
+#estrenos{
     display: flex;
     flex-direction: column;
 }
@@ -102,15 +155,15 @@ p{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 .container-estrenos{
     width: 300px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
-.cartelera{
+#cartelera{
     display: flex;
     flex-direction: column;
 }
@@ -124,15 +177,135 @@ p{
 
 .container-cartelera{
     width: 300px;
-    margin-right: 10px;
+    margin: 10px;
+}
+
+button{
+    border-radius: 6px;
+    margin: 5px;
+    padding: 7px;
+    border: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.botones{
+    display: flex;
+}
+
+.preventa{
+    background-color: coral;
+}
+
+.eras-text{
+    color: white;
+    font-size: 4vw;
+    margin-left: 25px
+}
+
+.eras-containers{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#the10s{
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 240, 240);
+    border-radius: 10px;
+}
+
+#the00s{
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 247, 240);
+    border-radius: 10px;
+}
+
+#the90s{
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 250, 240);
+    border-radius: 10px;
+}
+
+#the80s{
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 244, 250);
+    border-radius: 10px;
+}
+
+#the70s{
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 240, 250);
+    border-radius: 10px;
+}
+
+#contacto{
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(110, 110, 110);
+    border-radius: 10px;
+}
+
+.contacto-article{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
 }
 
 
-      
-  
-  
-  
+.contacto-lista{
+    display: flex;
+    text-indent: 20px; 
+    list-style-type: none;
+}
 
+.contacto-text{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 
-  
+.contacto-icons{
+    margin-top: 10px;
+    text-indent: 20px;
+}

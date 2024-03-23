@@ -18,6 +18,7 @@
     <meta name="revisit-after" content="15days" />
 
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lilita+One&display=swap" rel="stylesheet">
@@ -42,7 +43,7 @@
     <main>
         <aside class="sec-nav2">
             <br>
-            <h3>Eras</h3>
+            <h2>Eras</h2>
             <br>
             <ul class="sec-nav2-lista">
                 <li><a href="index.html#the10s"><i class="bi bi-arrow-up-right-circle"></i> 10s </a></li>
@@ -51,17 +52,21 @@
                 <li><a href="index.html#the80s"><i class="bi bi-arrow-up-right-circle"></i> 80s </a></li>
                 <li><a href="index.html#the70s"><i class="bi bi-arrow-up-right-circle"></i> 70s </a></li>
             </ul>
+            <article class="ciudades">
+                <h3 class="ciudad1">MDE</h3>
+                <h3 class="ciudad2">COL</h3>
+            </article>
         </aside>
         <section class="main-content">
             <section class="headpage">
                 <figure class="headpage-figure">
                     <img
-                    class="extinto-cinema-logo"
-                    src="./public/img/pngtree-co2-extinguisher-signaling-png-image_1609834.jpg"
-                    alt="Firma-David-Blandon"/>
+                    class="xtype-cinema-logo"
+                    src="./public/img/xtype-cinema-logo.webp"
+                    alt="xtype-cinema-logo"/>
                 </figure>
                 <article class="headpage-article">
-                    <h1 class="headpage-title">EXTINTO CINEMA</h1>
+                    <h1 class="headpage-title">XTYPE CINEMA</h1>
                 </article>
             </section>
             <section id="estrenos">
@@ -70,23 +75,67 @@
                 </article>
                 <article class="estrenos-article">
                     <div class="container-estrenos">
-                        <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
+                        <img class="img-film" src="https://m.media-amazon.com/images/M/MV5BMjVlMWUxZDctMWI2NS00MTcyLTgxNjktOWI3MjQ5N2NmOGIyXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg" alt="godzilla">
                         <h2>Godzilla x Kong: The New Empire</h2>
-                        <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
+                        <p class="p-as-an-h5">Titulo en español: Godzilla y Kong: El Nuevo imperio</p>
                         <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
                         <div class="botones">
-                            <button class="preventa"><p>Reservar</p></button>
+                            <button class="preventa"><a href="https://link.mercadopago.com.co/xtypecinema" target="_blank"><p>Reservar</p></a></button>
                             <button disabled><p>Para todo el Público</p></button>
                             <button disabled><p>88 min</p></button>
                         </div>
                     </div>
                     <div class="container-estrenos">
-                        <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/4/5/7/6/56754-1-esl-CO/381eed682206-2_poster_480x670.png" alt="10lives">
+                        <img class="img-film" src="https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/65f095088bd56c52bbd76ef6/common/ghostbusters-frozen-97495-1710423602537" alt="ghostbusters">
+                        <h2>Ghostbusters Frozen</h2>
+                        <p class="p-as-an-h5">Titulo en español: Ghostbusters Apocalipsis Fantasma</p>
+                        <p>Estreno: 11-Abr-2024<br>Género: Ciencia Ficción</p>
+                        <div class="botones">
+                            <button class="preventa"><a href="https://link.mercadopago.com.co/xtypecinema" target="_blank"><p>Reservar</p></a></button>
+                            <button disabled><p>Para todo el Público</p></button>
+                            <button disabled><p>115 min</p></button>
+                        </div>
+                    </div>
+                    <div class="container-estrenos">
+                        <img class="img-film" src="https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/65fc521b3858557852397a6f/common/pearl-jam-dark-matter-97659-1711123734962" alt="pearljam">
+                        <h2>Pearl Jam Dark Matter</h2>
+                        <p class="p-as-an-h5">Titulo en español: Pearl Jam Dark Matter</p>
+                        <p>Estreno: 16-Abr-2024<br>Género: Música</p>
+                        <div class="botones">
+                            <button class="preventa"><a href="https://link.mercadopago.com.co/xtypecinema" target="_blank"><p>Reservar</p></a></button>
+                            <button disabled><p>Para todo el Público</p></button>
+                            <button disabled><p>85 min</p></button>
+                        </div>
+                    </div>
+                    <div class="container-estrenos">
+                        <img class="img-film" src="https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/65eb69a5002f7d0bfa379d59/common/suga-d-day-the-movie-97260-1709926863124" alt="sugad-day">
+                        <h2>Suga D-Day The Movie</h2>
+                        <p class="p-as-an-h5">Titulo en español: Suga D-Day The Movie</p>
+                        <p>Estreno: 10-Abr-2024<br>Género: Música</p>
+                        <div class="botones">
+                            <button class="preventa"><a href="https://link.mercadopago.com.co/xtypecinema" target="_blank"><p>Reservar</p></a></button>
+                            <button disabled><p>Para todo el Público</p></button>
+                            <button disabled><p>85 min</p></button>
+                        </div>
+                    </div>
+                    <div class="container-estrenos">
+                        <img class="img-film" src="https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/65f785a947f416c814d02a78/common/un-gato-con-suerte-97407-1710720570551" alt="10lives">
+                        <h2>10 Lives</h2>
+                        <p class="p-as-an-h5">Titulo en español: Un Gato con Suerte</p>
+                        <p>Estreno: 23-Mar-2024<br>Género: Animación</p>
+                        <div class="botones">
+                            <button><a href="https://link.mercadopago.com.co/xtypecinema" target="_blank"><p>Comprar</p></a></button>
+                            <button disabled><p>Para todo el Público</p></button>
+                            <button disabled><p>110 min</p></button>
+                        </div>
+                    </div>
+                    <div class="container-estrenos">
+                        <img class="img-film" src="https://assets.cinemark-core.com/5db771be04daec00076df3f5/vista/movies/65f83916a7484d052865ddc3/common/arthur-sin-limites-97335-1710766387407" alt="arthurtheking">
                         <h2>Arthur The King</h2>
-                        <h5>Titulo en español: Arthur, una Amistad sin Límites</h5>
+                        <p class="p-as-an-h5">Titulo en español: Arthur, una Amistad sin Límites</p>
                         <p>Estreno: 21-Mar-2024<br>Género: Aventura</p>
                         <div class="botones">
-                            <button><p>Comprar</p></button>
+                            <button><a href="https://link.mercadopago.com.co/xtypecinema" target="_blank"><p>Comprar</p></a></button>
                             <button disabled><p>Para todo el Público</p></button>
                             <button disabled><p>106 min</p></button>
                         </div>
@@ -94,10 +143,10 @@
                     <div class="container-estrenos">
                         <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/0/8/9/6/56980-1-esl-CO/2c838e84442e-2_poster_480x670.png" alt="vermines">
                         <h2>Vermines</h2>
-                        <h5>Titulo en español: Arácnidos</h5>
+                        <p class="p-as-an-h5">Titulo en español: Arácnidos</p>
                         <p>Estreno: 21-Mar-2024<br>Género: Terror</p>
                         <div class="botones">
-                            <button><p>Comprar</p></button>
+                            <button><a href="https://link.mercadopago.com.co/xtypecinema" target="_blank"><p>Comprar</p></a></button>
                             <button disabled><p>Recomendada para Mayores de 12 años</p></button>
                             <button disabled><p>105 min</p></button>
                         </div>
@@ -105,10 +154,10 @@
                     <div class="container-estrenos">
                         <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/9/6/8/6/56869-1-esl-CO/a7cb08cfbf37-2_poster_480x670.png" alt="cabrini">
                         <h2>Cabrini</h2>
-                        <h5>Titulo en español: Cabrini</h5>
+                        <p class="p-as-an-h5">Titulo en español: Cabrini</p>
                         <p>Estreno: 21-Mar-2024<br>Género: Drama</p>
                         <div class="botones">
-                            <button><p>Comprar</p></button>
+                            <button><a href="https://link.mercadopago.com.co/xtypecinema" target="_blank"><p>Comprar</p></a></button>
                             <button disabled><p>Recomendada para Mayores de 12 años</p></button>
                             <button disabled><p>142 min</p></button>
                         </div>
@@ -116,10 +165,10 @@
                     <div class="container-estrenos">
                         <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/0/2/2/6/56220-1-esl-CO/794283cd0f38-2_poster_480x670.png" alt="thebeast">
                         <h2>The Beast</h2>
-                        <h5>Titulo en español: La Bestia</h5>
+                        <p class="p-as-an-h5">Titulo en español: La Bestia</p>
                         <p>Estreno: 21-Mar-2024<br>Género: Ciencia Ficción, Drama</p>
                         <div class="botones">
-                            <button><p>Comprar</p></button>
+                            <button><a href="https://link.mercadopago.com.co/xtypecinema" target="_blank"><p>Comprar</p></a></button>
                             <button disabled><p>Para todo el Público</p></button>
                             <button disabled><p>146 min</p></button>
                         </div>
@@ -127,10 +176,10 @@
                     <div class="container-estrenos">
                         <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/0/9/5/6/56590-1-esl-CO/f39db0cf1e0c-mydr_cineco_pstr-dskp_480x670.png" alt="maydecember">
                         <h2>May December</h2>
-                        <h5>Titulo en español: Secretos de un Escándalo</h5>
+                        <p class="p-as-an-h5">Titulo en español: Secretos de un Escándalo</p>
                         <p>Estreno: 21-Mar-2024<br>Género: Comedia, Drama</p>
                         <div class="botones">
-                            <button><p>Comprar</p></button>
+                            <button><a href="https://link.mercadopago.com.co/xtypecinema" target="_blank"><p>Comprar</p></a></button>
                             <button disabled><p>Exclusiva para Mayores de 15 años</p></button>
                             <button disabled><p>117 min</p></button>
                         </div>
@@ -138,10 +187,10 @@
                     <div class="container-estrenos">
                         <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/5/0/4/6/56405-1-esl-CO/3fc3ff4ae243-poster_-480x670-.png" alt="monster">
                         <h2>Monster</h2>
-                        <h5>Titulo en español: Monster</h5>
+                        <p class="p-as-an-h5">Titulo en español: Monster</p>
                         <p>Estreno: 21-Mar-2024<br>Género: Drama</p>
                         <div class="botones">
-                            <button><p>Comprar</p></button>
+                            <button><a href="https://link.mercadopago.com.co/xtypecinema" target="_blank"><p>Comprar</p></a></button>
                             <button disabled><p>Recomendada para Mayores de 12 años</p></button>
                             <button disabled><p>126 min</p></button>
                         </div>
@@ -149,10 +198,10 @@
                     <div class="container-estrenos">
                         <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/7/5/2/6/56257-1-esl-CO/a5075ef51f0b-poster-480x670.jpg" alt="losdelaculpa">
                         <h2>Los de la Culpa</h2>
-                        <h5>Titulo en español: Los de la Culpa</h5>
+                        <p class="p-as-an-h5">Titulo en español: Los de la Culpa</p>
                         <p>Estreno: 21-Mar-2024<br>Género: Comedia</p>
                         <div class="botones">
-                            <button><p>Comprar</p></button>
+                            <button><a href="https://link.mercadopago.com.co/xtypecinema" target="_blank"><p>Comprar</p></a></button>
                             <button disabled><p>Exclusiva para Mayores de 15 años</p></button>
                             <button disabled><p>106 min</p></button>
                         </div>
@@ -167,48 +216,44 @@
                     <section id="the10s">
                         <p class="eras-text">10s</p>
                         <article class="eras-containers">
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg" alt="lalaland">
+                                <h2>La La Land</h2>
+                                <p>Año: 2016<br>Género: Drama, Musical, Romance</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>T</p></button>
+                                    <button disabled><p>128 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://images.moviesanywhere.com/9fa9783696f8353a3741038e012f1b2d/27d4ce4f-76fd-454e-a1c6-ca7ff3d0417b.jpg" alt="lesmiserables">
+                                <h2>Les Misérables</h2>
+                                <p>Año: 2012<br>Género: Musical, Histórico, Drama</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+15</p></button>
+                                    <button disabled><p>158 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://cartelera.montevideo.com.uy/imagenes_espectaculos/moviedetail13/21193.jpg" alt="huye">
+                                <h2>¡Huye!</h2>
+                                <p>Año: 2017<br>Género: Terror</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+15</p></button>
+                                    <button disabled><p>104 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://pbs.twimg.com/media/FWrUBSVWIAIXhMG.jpg:large" alt="huvenhollywood">
+                                <h2>Habia una vez en Hollywood</h2>
+                                <p>Año: 2019<br>Género: Comedia Dramática, Crimenes, Ucrónico</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+15</p></button>
+                                    <button disabled><p>160 min</p></button>
                                 </div>
                             </div>
                         </article>
@@ -216,48 +261,44 @@
                     <section id="the00s">
                         <p class="eras-text">00s</p>
                         <article class="eras-containers">
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://m.media-amazon.com/images/M/MV5BOTdiNzJlOWUtNWMwNS00NmFlLWI0YTEtZmI3YjIzZWUyY2Y3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg" alt="requiemforadream">
+                                <h2>Requiem for a Dream</h2>
+                                <p>Año: 2000<br>Género: Drama Psicológico</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+18</p></button>
+                                    <button disabled><p>102 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28578_p_v11_ab.jpg" alt="memento">
+                                <h2>Memento</h2>
+                                <p>Año: 2001<br>Género: Thriller, Misterio Neo-Noir</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+15</p></button>
+                                    <button disabled><p>113 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://m.media-amazon.com/images/M/MV5BNjk1NzBlY2YtNjJmNi00YTVmLWI2OTgtNDUxNDE5NjUzZmE0XkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_.jpg" alt="themachinist">
+                                <h2>The Mechanist</h2>
+                                <p>Año: 2004<br>Género: Suspense Psicológico</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+15</p></button>
+                                    <button disabled><p>91 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2023/08/31184632/3rrkyLYbgLj84AYvjhdcJot4JPx-scaled.jpg" alt="almostfamous">
+                                <h2>Almost Famous</h2>
+                                <p>Año: 2000<br>Género: Comedia Dramática</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+12</p></button>
+                                    <button disabled><p>102 min</p></button>
                                 </div>
                             </div>
                         </article>
@@ -265,48 +306,44 @@
                     <section id="the90s">
                         <p class="eras-text">90s</p>
                         <article class="eras-containers">
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg" alt="matrix">
+                                <h2>The Matrix</h2>
+                                <p>Año: 1999<br>Género: Acción, Ciencia Ficción</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+18</p></button>
+                                    <button disabled><p>136 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://m.media-amazon.com/images/M/MV5BMzBmOGQ0NWItOTZjZC00ZDAxLTgyOTEtODJiYWQ2YWNiYWVjXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_.jpg" alt="clueless">
+                                <h2>Clueles</h2>
+                                <p>Año: 1995<br>Género: Comedia adolescente</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+18</p></button>
+                                    <button disabled><p>98 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://m.media-amazon.com/images/I/910HNSld81L.jpg" alt="trainspotting">
+                                <h2>Trainspotting</h2>
+                                <p>Año: 1996<br>Género: Comedia Negra, Drama</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+18</p></button>
+                                    <button disabled><p>90 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://pics.filmaffinity.com/Casi_famosos-147323721-large.jpg" alt="elabogadodel-diablo">
+                                <h2>El Abogado del Diablo</h2>
+                                <p>Año: 1997<br>Género: Terror Sobrenatural</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+18</p></button>
+                                    <button disabled><p>144 min</p></button>
                                 </div>
                             </div>
                         </article>
@@ -314,48 +351,44 @@
                     <section id="the80s">
                         <p class="eras-text">80s</p>
                         <article class="eras-containers">
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://m.media-amazon.com/images/M/MV5BZDRkOWQ5NGUtYTVmOS00ZjNhLWEwODgtOGI2MmUxNTBkMjU0XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg" alt="purplecolor">
+                                <h2>El color púrpura</h2>
+                                <p>Año: 1985<br>Género: Melodrama</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+18</p></button>
+                                    <button disabled><p>147 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://m.media-amazon.com/images/M/MV5BNWY1ODE1ODQtMjQwZC00NTVmLTg5MGUtZWJkZTkxZDdhMGE2XkEyXkFqcGdeQXVyMjgyNDU4MjE@._V1_.jpg" alt="losintocables">
+                                <h2>Los intocables</h2>
+                                <p>Año: 1987<br>Género: Crimen</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+18</p></button>
+                                    <button disabled><p>119 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/2924896/5926866/MOVEJ1354__24748.1679575675.jpg?c=2" alt="footloose">
+                                <h2>Footloose</h2>
+                                <p>Año: 1984<br>Género: Drama, Romance</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+18</p></button>
+                                    <button disabled><p>107 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://visualprint-store.com/cdn/shop/products/ptymyRrTHYEIK1t4XeYnBIurJtz.jpg?v=1666572197&width=1445" alt="elresplandor">
+                                <h2>El resplandor</h2>
+                                <p>Año: 1980<br>Género: Drama, Terror</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+15</p></button>
+                                    <button disabled><p>146 min</p></button>
                                 </div>
                             </div>
                         </article>
@@ -363,48 +396,44 @@
                     <section id="the70s">
                         <p class="eras-text">70s</p>
                         <article class="eras-containers">
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://i.pinimg.com/736x/1e/fa/63/1efa630c8b3c771d517765785bd3bfdf.jpg" alt="SNF">
+                                <h2>Fiebre de sábado por la noche</h2>
+                                <p>Año: 1977<br>Género: Drama, Musical</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+15</p></button>
+                                    <button disabled><p>119 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://www.kingstheatre.ca/kingweb/wp-content/uploads/2022/09/RHPS_PromoEyes_1.jpg" alt="tRHPS">
+                                <h2>The Rocky Horror Picture Show</h2>
+                                <p>Año: 1975<br>Género: Musical, Comedia de Terror, Ciencia Ficción</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+18</p></button>
+                                    <button disabled><p>100 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://images.justwatch.com/poster/47985014/s718/carrie.jpg" alt="carrie">
+                                <h2>Carrie</h2>
+                                <p>Año: 1976<br>Género: Terror Sobrenatural</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+18</p></button>
+                                    <button disabled><p>98 min</p></button>
                                 </div>
                             </div>
-                            <div class="container-estrenos">
-                                <img class="img-film" src="https://archivos-cms.cinecolombia.com/images/_aliases/poster_card/6/1/5/6/56516-9-esl-CO/003944f27549-480x670.jpg" alt="godzilla">
-                                <h2>Godzilla x Kong: The New Empire</h2>
-                                <h5>Titulo en español: Godzilla y Kong: El Nuevo imperio</h5>
-                                <p>Estreno: 28-Mar-2024<br>Género: Acción, Ciencia Ficción</p>
+                            <div class="container-cartelera">
+                                <img class="img-film" src="https://i.etsystatic.com/31354435/r/il/eee832/3249897420/il_570xN.3249897420_34go.jpg" alt="halloween">
+                                <h2>Halloween</h2>
+                                <p>Año: 1978<br>Género: Slasher, Terror</p>
                                 <div class="botones">
                                     <button><p>Comprar</p></button>
-                                    <button disabled><p>Para todo el Público</p></button>
-                                    <button disabled><p>106 min</p></button>
+                                    <button disabled><p>+18</p></button>
+                                    <button disabled><p>91 min</p></button>
                                 </div>
                             </div>
                         </article>
@@ -414,23 +443,26 @@
         </section>
     </main>
     <footer>
+        <section class="secciones-title">
+            <h2>ESTRENOS</h2>
+        </section>
         <section id="contacto">
             <article class="contacto-article">
                 <ul class="contacto-lista">
                     <li><a class="contacto-text" href="/">| Información Legal |</a></li>
                     <li><a class="contacto-text" href="https://www.instagram.com/franccoina/">| Acerca de frn! |</a></li>
-                    <li><a class="contacto-text" href="https://wa.me/573504691236/?text=Newy Cinema!" target="_blank">| Contáctanos |</i></a></li>
+                    <li><a class="contacto-text" href="https://wa.me/573504691236/?text=Newy Cinema!" target="_blank"><span>| Contáctanos |</span></i></a></li>
                     <li><a class="contacto-text" href="https://riwi.io/sobre-nosotros/">| Acerca de Riwi |</a></li>
                     <li><a class="contacto-text" href="/">| Preguntas Frecuentes |</a></li>
                 </ul>
                 <p class="contacto-text">© 2024 frn! Designing Group, Riwi Newy Cinema. Todos los derechos reservados.</p>    
             </article>
             <article class="contacto-icons">
-                <a href="https://wa.me/573504691236/?text=Newy Cinema!" target="_blank"><i class="bi bi-whatsapp"></i> </a></li>
-                <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="bi bi-facebook"></i></a></li>
-                <a href="https://www.reddit.com/?rdt=43305" target="_blank"><i class="bi bi-reddit"></i></a></li>
-                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></i></a></li>
-                <a href="https://twitter.com/?lang=es" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
+                <a href="https://wa.me/573504691236/?text=Newy Cinema!" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.reddit.com/?rdt=43305" target="_blank"><i class="bi bi-reddit"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="bi bi-twitter-x"></i></a>
             </article>
         </section>
     </footer>

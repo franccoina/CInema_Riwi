@@ -8,12 +8,12 @@
     display:flex; 
     align-items: center;
     width: 4rem;
-    height: auto;
+    height: 4rem;
 }
 
 a{
     text-decoration: none; 
-    color:rgb(85, 85, 85); 
+    color:rgb(65, 65, 65); 
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     font-weight: 1000;
@@ -26,6 +26,7 @@ a{
     border-radius: 10px;
     margin-right: 10px;
     width: 300px;
+    height: auto;
 }
 
 .img-title{
@@ -86,7 +87,6 @@ h1{
 }
 
 h2{
-    margin: 5px;
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -97,14 +97,15 @@ h3{
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: rgb(85, 85, 85);
 }
 
-h5{
+.p-as-an-h5{
     margin: 5px;
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
+    font-weight:bolder;
+    font-style:italic;
 }
 
 p{
@@ -117,43 +118,78 @@ p{
 }
 
 .headpage{
-    display:flex ; 
+    display:flex ;
     justify-content:space-between; 
-    width: 100%;
-    margin: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
     border-radius: 20px;
-    background-color: rgb(199, 177, 144);
-    box-shadow: 2px 2px 2px  rgb(59, 53, 43)
+    background-color: hwb(0 0% 0%);
 }
 
 .headpage-article{
+    display: flex;
     width: 50%;
     padding: 8px;
+    align-items: center;
 }
 
 .headpage-title{
     padding: 30px;
-    font-size: 5vw; 
+    font-size: 6vw; 
     color: rgb(254, 246, 234);
     margin-left: 0px;
 }
 
 .headpage-figure{
     display:flex ; 
-    justify-content:flex-end; 
+    justify-content:center; 
     width: 50%;
 }
 
-.extinto-cinema-logo{
-    width: 100%;
-    padding: 30px
+.xtype-cinema-logo{
+    width: 15rem;
+    height: 15rem;
+    padding: 40px;
+    border:none;
+    box-shadow: none
 }
 
+.secciones-title{
+    padding: 15px;
+    margin: 50px;
+    border-radius: 5px;
+    background-color: rgb(200, 200, 215);
+    display: flex;
+    justify-content: center;
+}
+
+.ciudades{
+    display: flex;
+}
+
+.ciudad1{
+    padding: 15px;
+    margin-top: 50px;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: rgb(130, 230, 180);
+    display: flex;
+    justify-content: center;
+}
+
+.ciudad2{
+    padding: 15px;
+    margin-top: 55px;
+    border-radius: 5px;
+    background-color: rgb(190, 240, 150);
+    display: flex;
+    justify-content: center;
+}
 
 #estrenos{
     display: flex;
     flex-direction: column;
-    
 }
 
 .estrenos-article{
@@ -161,17 +197,23 @@ p{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
 }
 
 .container-estrenos{
     width: 300px;
-    margin: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #cartelera{
     display: flex;
     flex-direction: column;
+}
+
+span{
+    color: rgb(40, 40, 40);
+    font-weight: 700;
 }
 
 .cartelera-article{
@@ -183,7 +225,9 @@ p{
 
 .container-cartelera{
     width: 300px;
-    margin: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 button{
@@ -200,7 +244,7 @@ button{
 }
 
 .preventa{
-    background-color: coral;
+    background-color: rgb(250, 210, 190);
 }
 
 .eras-text{
@@ -278,14 +322,13 @@ button{
 
 #contacto{
     padding: 20px;
-    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 40px;
     margin-right: 40px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(110, 110, 110);
+    background-color: rgb(115, 115, 130);
     border-radius: 10px;
 }
 
@@ -294,7 +337,6 @@ button{
     flex-direction: column;
     align-items: center;
 }
-
 
 .contacto-lista{
     display: flex;
